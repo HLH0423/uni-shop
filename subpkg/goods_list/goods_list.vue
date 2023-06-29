@@ -1,6 +1,10 @@
 <template>
 	<view>
+<<<<<<< HEAD
 		Good_List
+=======
+		goods_list
+>>>>>>> master
 	</view>
 </template>
 

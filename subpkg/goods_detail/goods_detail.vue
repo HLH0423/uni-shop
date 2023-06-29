@@ -1,6 +1,10 @@
 <template>
 	<view>
+<<<<<<< HEAD
 		
+=======
+		good_detail
+>>>>>>> master
 	</view>
 </template>
 
