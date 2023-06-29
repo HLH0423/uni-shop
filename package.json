@@ -1,0 +1,19 @@
+{
+  "name": "uni-shop-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:han-lihua0423/uni-shop2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1"
+  }
+}
