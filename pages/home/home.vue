@@ -46,18 +46,6 @@
 
 <script>
 	export default {
-<<<<<<< HEAD
-		data() {
-			return {
-				// 轮播图的数据列表，默认为空数组
-        swiperList:[],
-        // 分类导航的数据列表
-        navList:[],
-        // 楼层的数据列表
-        floorList:[]
-			};
-		},
-=======
       data() {
         return {
           
@@ -70,7 +58,6 @@
         };
       },
 		
->>>>>>> master
     onLoad(){
       // 在小程序页面刚加载的时候，调用获取轮播图数据的方法
       this.getSwiperList()
@@ -135,37 +122,6 @@ swiper {
     height: 100%;
   }
 }
-<<<<<<< HEAD
-
-.nav-list {
-  display: flex;
-  justify-content: space-around;
-  margin: 15px 0;
-  .nav-img {
-    width: 128rpx;
-    height: 140rpx;
-  }
-}
-
-.floor-title {
-  height: 60rpx;
-  width: 100%;
-  display: flex;
-}
-
-.right-img-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.floor-img-box {
-  display: flex;
-  padding-left: 10rpx;
-}
-
-=======
->>>>>>> master
 
 .nav-list {
   display: flex;
