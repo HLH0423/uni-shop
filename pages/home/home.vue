@@ -46,9 +46,9 @@
 
 <script>
 	export default {
+
       data() {
         return {
-          
           // 轮播图的数据列表，默认为空数组
           swiperList:[],
           // 分类导航的数据列表
@@ -149,6 +149,4 @@ swiper {
   display: flex;
   padding-left: 10rpx;
 }
-
-
 </style>
