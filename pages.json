@@ -25,7 +25,13 @@
                 }
                 ,{
                     "path" : "goods_list/goods_list",
-                    "style" : {}
+                    "style" : {
+                      // 配置上拉触底的距离
+                      "onReachBottomDistance":150,
+                      // 开启下拉刷新
+                      "enablePullDownRefresh":true,
+                      "backgroundColor":"#f8f8f8"
+                    }
                 }
                 ,{
                     "path" : "search/search",
