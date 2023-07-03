@@ -36,7 +36,38 @@
 </template>
 
 <script>
+  // 从 vuex 中按需导出 mapState 辅助方法
+  import { mapState, mapMutations, mapGetters } from 'vuex'
+  // 导入自己封装的 mixin 模块
+  import badgeMix from '@/mixins/tabbar-badge.js'
+  
 	export default {
+    // 将 badgeMix 混入到当前的页面中进行使用
+    mixins:[badgeMix],
+    computed: {
+      // 调用 mapState 方法，把 m_cart 模块中的 cart 数组映射到当前页面中，作为计算属性来使用
+      // ...mapState('模块的名称', ['要映射的数据名称1', '要映射的数据名称2'])
+      ...mapState('m_cart', []),
+    },
+    
+    // 使用普通函数的形式定义的 watch 侦听器，在页面首次加载后不会被调用。
+    // 因此导致了商品详情页在首次加载完毕之后，不会将商品的总数量显示到商品导航区域
+    // 为了防止这个上述问题，可以使用对象的形式来定义 watch 侦听器
+    watch:{
+      total:{
+        // handler 属性用来定义侦听器的 function 处理函数
+        handler(newVal) {
+          const findReasult = this.options.find(x => x.text === '购物车')
+          if(findReasult) {
+            findReasult.info = newVal
+          }
+        },
+        // immediate 属性用来声明此侦听器，是否在页面初次加载完毕后立即调用
+        immediate:true
+      }
+    },
+    
+    
 		data() {
 			return {
 				// 商品详情对象
@@ -51,7 +82,7 @@
             }, {
               icon: 'cart',
               text: '购物车',
-              info: 9
+              info: 0
             },
           ],
           
@@ -69,6 +100,7 @@
           ]     
 			};
 		},
+   
     
     onLoad(options) {
       const goods_id = options.goods_id
@@ -76,6 +108,9 @@
     },
     
     methods:{
+      // 把 m_cart 模块中的 addToCart 方法映射到当前页面使用
+      ...mapMutations('m_cart', ['addToCart']),
+      
       // 定义请求商品详情数据的方法
       async getGoodsDetail(goods_id) {
         const {data : res} = await uni.$http.get('/api/public/v1/goods/detail',{goods_id})
@@ -102,7 +137,27 @@
             url:'../../pages/cart/cart'
           })
         }
-      }
+      },
+      
+      // 右侧按钮的点击事件处理函数
+      buttonClick(e) {
+        // 判断是否点击了 加入购物车 按钮
+        if(e.content.text === '加入购物车') {
+          // { goods_id, goods_name, goods_price, goods_count, goods_small_logo, goods_state }
+          const goods = {
+            goods_id: this.goods_info.goods_id,
+            goods_name: this.goods_info.goods_name,
+            goods_price: this.goods_info.goods_price,
+            goods_count: 1,
+            goods_small_logo: this.goods_info.goods_small_logo,
+            goods_state: true,
+          }
+          // 通过 this 调用映射过来的 addToCart 方法，把商品信息对象存储到购物车中
+          this.addToCart(goods)
+        }
+      },
+      
+
     }
 	}
 </script>
