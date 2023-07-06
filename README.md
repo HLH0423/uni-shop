@@ -27,9 +27,9 @@
 ######
 搜索历史：保证最新搜索的关键词在最前面且不出现重复关键词
 ######
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/a1673c05-be15-4e02-bb90-2bd666ef5799" width="300">
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/94b7a1ad-b754-43e6-85e4-c8490828cb4b" width="300">
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/4e01ce29-9b99-4637-ac08-b01e7e47777c" width="300">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/a1673c05-be15-4e02-bb90-2bd666ef5799" width="200">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/94b7a1ad-b754-43e6-85e4-c8490828cb4b" width="200">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/4e01ce29-9b99-4637-ac08-b01e7e47777c" width="200">
 
 ## 商品列表
 ### 展示商品信息
