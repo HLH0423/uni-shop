@@ -5,20 +5,20 @@
 <img src="https://github.com/HLH0423/uni-shop/assets/54101102/f2f995b9-723b-42d3-9adf-eaacf0289aab" width="800">
 
 ## 首页
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/6c69cf16-8825-4aef-a481-0f3300b20650" width="300">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/6c69cf16-8825-4aef-a481-0f3300b20650" width="400">
 
 ## 分类
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/b8052830-c359-4e1f-bfda-ba3f30efc6bd" width="300">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/b8052830-c359-4e1f-bfda-ba3f30efc6bd" width="400">
 
 ## 购物车
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/b9e31107-297d-42c9-bc06-1f476a272112" width="300">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/b9e31107-297d-42c9-bc06-1f476a272112" width="400">
 
 ## 我的
 ### 一键登录
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/17dd03d3-b728-44b1-8641-517e90c9e820" width="300">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/17dd03d3-b728-44b1-8641-517e90c9e820" width="400">
 
 ### 用户信息
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/4f250ef5-fb8f-49b8-a54f-cd859074f481" width="300">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/4f250ef5-fb8f-49b8-a54f-cd859074f481" width="400">
 
 ## 商品搜索
 搜索吸顶：将搜索组件固定在页面顶部，不会被轮播图等区域覆盖
