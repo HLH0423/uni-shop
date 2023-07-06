@@ -12,6 +12,13 @@ $http.beforeRequest = function (options) {
   uni.showLoading({
     title: '数据加载中...',
   })
+  
+  // 判断请求的是否为有权限的 API 接口
+  if(options.url.indexOf('/my/') !== -1) {
+    options.header = {
+      Authorization:store.state.m_user.token
+    }
+  }
 }
 
 // 请求完成之后做一些事情

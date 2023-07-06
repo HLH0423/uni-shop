@@ -1,5 +1,5 @@
 {
-    "name" : "uni-shop-2",
+    "name" : "上品优购",
     "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
@@ -47,8 +47,6 @@
             "urlCheck" : true,
             "checkSiteMap" : false
         },
-         "requiredPrivateInfos": [
-            "chooseAddress"
-        ]
+        "requiredPrivateInfos" : [ "chooseAddress" ]
     }
 }

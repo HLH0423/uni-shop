@@ -81,7 +81,7 @@ export default {
     },
     
     // 购物车中已勾选商品的总数量
-    checkoutCount(state) {
+    checkedCount(state) {
       return state.cart.filter(x => x.goods_state).reduce((total, item) => total += item.goods_count, 0)
     },
     
