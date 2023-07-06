@@ -5,20 +5,20 @@
 <img src="https://github.com/HLH0423/uni-shop/assets/54101102/f2f995b9-723b-42d3-9adf-eaacf0289aab" width="800">
 
 ## 首页
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/6c69cf16-8825-4aef-a481-0f3300b20650" width="400">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/6c69cf16-8825-4aef-a481-0f3300b20650" width="300">
 
 ## 分类
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/b8052830-c359-4e1f-bfda-ba3f30efc6bd" width="400">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/b8052830-c359-4e1f-bfda-ba3f30efc6bd" width="300">
 
 ## 购物车
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/b9e31107-297d-42c9-bc06-1f476a272112" width="400">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/b9e31107-297d-42c9-bc06-1f476a272112" width="300">
 
 ## 我的
 ### 一键登录
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/17dd03d3-b728-44b1-8641-517e90c9e820" width="400">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/17dd03d3-b728-44b1-8641-517e90c9e820" width="300">
 
 ### 用户信息
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/4f250ef5-fb8f-49b8-a54f-cd859074f481" width="400">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/4f250ef5-fb8f-49b8-a54f-cd859074f481" width="300">
 
 ## 商品搜索
 搜索吸顶：将搜索组件固定在页面顶部，不会被轮播图等区域覆盖
@@ -33,23 +33,23 @@
 
 ## 商品列表
 ### 展示商品信息
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/0d99c313-bdec-4103-a85d-292e39a40c5a" width="400">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/0d99c313-bdec-4103-a85d-292e39a40c5a" width="300">
 
 ### 上拉加载更多
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/6a0990c8-9675-42ea-be16-e9adb871244f" width="400">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/6a0990c8-9675-42ea-be16-e9adb871244f" width="300">
 
 ### 下拉刷新页面
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/a58782bf-3b2d-4dae-9aac-418b5d387aed" width="400">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/a58782bf-3b2d-4dae-9aac-418b5d387aed" width="300">
 
 ### 点击跳转详情页
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/7bfa88ef-8865-435a-b710-7f267789cd09" width="400">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/7bfa88ef-8865-435a-b710-7f267789cd09" width="300">
 
 ## 加入购物车
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/2356e519-7781-42be-bf88-ab2341a77367" width="300">
-<img src="https://github.com/HLH0423/uni-shop/assets/54101102/2b1e4619-233e-4253-8833-408b0a90fd5b" width="300">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/2356e519-7781-42be-bf88-ab2341a77367" width="200">
+<img src="https://github.com/HLH0423/uni-shop/assets/54101102/2b1e4619-233e-4253-8833-408b0a90fd5b" width="200">
 
 ## 微信支付
-该部分功能由于权限问题只能完成代码实现，不能进行实际展示
+该部分功能由于权限问题只能完成代码实现，不能进行效果展示
 ###
 
 ```sh
